@@ -2,7 +2,7 @@ def encoder(phrase: str) -> str:
     sch: int = 0
     alpha: str = "abcdefghijklmnopqrstuvwxyz"
     for i in range(len(phrase)):
-        index = alpha.find(phrase[i])
+        index: int = alpha.find(phrase[i])
         sch = index + i
 
         if i % 2 == 0:
@@ -16,7 +16,7 @@ def decoder(phrase: str) -> str:
     sch: int = 0
     alpha: str = "abcdefghijklmnopqrstuvwxyz"[::-1]
     for i in range(len(phrase)):
-        index = alpha.find(phrase[i])
+        index: int = alpha.find(phrase[i])
         sch = index + i
 
         if i % 2 == 0:
