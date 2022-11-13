@@ -24,7 +24,7 @@ fn encode() -> String {
 }
 
 fn decode() -> String {
-    println!("Phrase a encoder: ");
+    println!("Phrase a decoder: ");
     let mut user_input_encode: String = String::new();
     let mut i: usize = 0;
     let _alpha: String = String::from("zyxwvutsrqponmlkjihgfedcba");
