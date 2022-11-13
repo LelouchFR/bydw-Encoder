@@ -1,11 +1,17 @@
-# bydw-Encoder
-This encoder is still in beta... I took a lot of time for making it work
+This encoder is still in beta... I took a lot of time for making it work.  
+# This encoder is made for fun and for improving my skills in coding.
 
-## The point of this encoder:
-this encoder is made for fun and for improving my skills in coding.
+## In Rust
+[main.rs](https://github.com/LelouchFR/bydw-Encoder/blob/main/main.rs)
 
+## In C
+[main.c](https://github.com/LelouchFR/bydw-Encoder/blob/main/main.c)
 
-Algorithm Explained: You take a word, the first letter will go 1 letter to the right, the second will go 2 letter to the left, the third one 3 letters to the right, etc.
+## In C++
+[main.cpp](https://github.com/LelouchFR/bydw-Encoder/blob/main/main.cpp)
 
-## Example:
-> "bonjour" -> "cmqftoy"
+## In JavaScript
+[main.js](https://github.com/LelouchFR/bydw-Encoder/blob/main/main.js)
+
+## In Python
+[main.py](https://github.com/LelouchFR/bydw-Encoder/blob/main/main.py)
