@@ -1,6 +1,6 @@
 def encoder(phrase: str) -> str:
     sch: int = 0
-    alpha: str = "abcdefghijklmnopqrstuvwxyz"
+    alpha: str = "abcdefghijklmnopqrstuvwxyz" * 100
     result: str = ""
     j: int = 0
     for i in range(len(phrase)):
@@ -29,7 +29,7 @@ def encoder(phrase: str) -> str:
 
 def decoder(phrase: str) -> str:
     sch: int = 0
-    alpha: str = "abcdefghijklmnopqrstuvwxyz"[::-1]
+    alpha: str = "abcdefghijklmnopqrstuvwxyz"[::-1] * 100
     result: str = ""
     j: int = 0
     for i in range(len(phrase)):
