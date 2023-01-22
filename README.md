@@ -4,6 +4,9 @@ This encoder is still in beta... I took a lot of time for making it work.
 ## In Rust
 [main.rs](https://github.com/LelouchFR/bydw-Encoder/blob/main/main.rs)
 
+## In Pascal
+[main.cpp](https://github.com/LelouchFR/bydw-Encoder/blob/main/main.pas)
+
 ## In C
 [main.c](https://github.com/LelouchFR/bydw-Encoder/blob/main/main.c)
 
